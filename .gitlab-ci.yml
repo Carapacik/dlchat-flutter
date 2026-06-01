@@ -1,0 +1,20 @@
+---
+include:
+  project: 'devops/gitlab-ci'
+  ref: master
+  file:
+    - '/rugpt-ci-cd/.frontend.rugpt.yml'
+default:
+  tags:
+    - int-flydata-ru
+    - okd
+    - instance-builder-runner
+
+variables:
+  CI_INIT_MIGRATIONS:    "false"
+  CI_LIVENESS_PROBE:     "false"
+  CI_COMMAND_BOOL:       "false"
+  CI_K8S_ENABLE_ROUTE:   "false"
+  CI_K8S_ENABLE_INGRESS: "true"
+  CI_STAGE_URL:          "https://app-stage.example.com"
+  CI_VAULT_ANNOTATION:   "false"

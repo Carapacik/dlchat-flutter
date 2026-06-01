@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>bank100000000111</string>
+		<string>bank100000000004</string>
+		<string>bank100000000005</string>
+		<string>bank100000000008</string>
+		<string>bank100000000007</string>
+		<string>bank100000000015</string>
+		<string>bank100000000001</string>
+		<string>bank100000000010</string>
+		<string>bank100000000024</string>
+		<string>bank100000000020</string>
+		<string>bank100000000012</string>
+		<string>bank100000000236</string>
+		<string>bank100000000047</string>
+		<string>bank100000000092</string>
+		<string>bank100000000259</string>
+		<string>bank100000000017</string>
+		<string>bank100000000011</string>
+		<string>bank100000000016</string>
+	</array>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>$(PRODUCT_COPYRIGHT)</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>DLChat запрашивает доступ к микрофону, чтобы использовать голосовой ввод</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>DLChat запрашивает доступ к библиотеке Фото, чтобы оно могло сохранять фотографии</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>DLChat запрашивает доступ к микрофону, чтобы использовать голосовой ввод</string>
+</dict>
+</plist>
